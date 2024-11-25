@@ -25,5 +25,5 @@ func _physics_process(delta: float) -> void:
 
 	if Input.is_action_pressed("ui_right"):
 		apply_torque(500_000_000)
-
+		
 		
